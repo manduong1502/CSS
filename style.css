@@ -15,9 +15,10 @@ body {
 
 }
 
-.navbar {
+.Choose {
     display: flex;
     justify-content: space-between;
+    /* (Tách sang trái) */
     background-color: #000;
 }
 
@@ -30,13 +31,13 @@ body {
     margin-top: 0;
 }
 
-.navbar-ul{
+.choosemenu{
     background-color: #000;
     margin: 0;
     padding: 0;
 }
 
-.navbar-item {
+.menu-item {
     color: #fff;
     list-style: none;
     font-size: 15px;
@@ -46,7 +47,7 @@ body {
 }
 
 
-.navbar-item:hover {
+.menu-item:hover {
     background-color: #fff;
     color: #000;
     border: 2px solid black;
